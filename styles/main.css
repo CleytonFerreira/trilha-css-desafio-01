@@ -1,4 +1,4 @@
-body {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@ body {
             rgba(0, 0, 0, .6),
             rgba(49, 168, 221, .2),
             rgba(0, 0, 0, .6)),
-        url('../assets/images/banner.png');
+            url('../assets/images/banner.png');
     background-size: cover;
     background-position: center center;
     border-bottom: 1px solid #33a8dB;
@@ -29,13 +29,11 @@ body {
     display: inherit;
     flex-direction: inherit;
     justify-content: space-around;
-    align-items: inherit;
     width: 25rem;
     height: 24.5rem;
 }
 
 .banner-content h1 {
-    font-size: 2rem;
     font-weight: 900;
     text-transform: uppercase;
     color: transparent;
@@ -46,13 +44,11 @@ body {
 
 .banner-content p {
     font-size: 1.25rem;
-    font-weight: 400;
-    text-align: center;
 }
 
 .banner button {
     margin-top: 1.5rem;
-    padding: 19px 50px;
+    padding: 1.1rem 3.1rem;
     font-size: 1rem;
     font-weight: 900;
     letter-spacing: 0.21em;
@@ -82,7 +78,6 @@ main {
 h2 {
     color: #33a8dB;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 1.8rem;
 }
 
@@ -98,7 +93,6 @@ h2 {
     width: 23.7rem;
     height: 3.1rem;
     background-color: #252525;
-    color: #fff;
     border-radius: 3.5rem;
     border: 1px solid #33a8dB;
     box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
@@ -153,7 +147,7 @@ h2 {
 
 footer {
     width: 100vw;
-    height: 170px;
+    height: 10.6rem;
     border-top: 1px solid #33a8dB;
     background: linear-gradient(180deg,
             rgba(51, 168, 219, 0) 0%,
@@ -165,7 +159,7 @@ footer {
     margin-top: 3.6rem;
 }
 
-footer p {    
+footer p {
     margin-top: 0.6rem;
 }
 
@@ -185,7 +179,7 @@ footer a {
     }
 
     .banner button {
-        padding: 19px 91px;
+        padding: 1.1rem 5.6rem;
     }
 
     #course-content {
@@ -207,7 +201,6 @@ footer a {
     #transform-world p {
         top: 50%;
         left: 13.7%;
-        align-self: center;
         width: 15.2rem;
         transform: translateY(-50%);
     }
