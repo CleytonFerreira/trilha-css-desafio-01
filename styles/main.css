@@ -10,6 +10,7 @@
     overflow-x: hidden;
 }
 
+/* banner */
 .banner {
     display: inherit;
     flex-direction: inherit;
@@ -17,11 +18,10 @@
     align-items: inherit;
     width: 100vw;
     height: 37.8rem;
-    background: linear-gradient(
-            rgba(0, 0, 0, .6),
+    background: linear-gradient(rgba(0, 0, 0, .6),
             rgba(49, 168, 221, .2),
             rgba(0, 0, 0, .6)),
-            url('../assets/images/banner.webp');
+        url('../assets/images/banner.webp');
     background-size: cover;
     background-position: center center;
     border-bottom: 1px solid #33a8dB;
@@ -68,12 +68,14 @@
     cursor: pointer;
 }
 
+/* main */
 main {
     display: inherit;
     flex-direction: inherit;
     align-items: inherit;
 }
 
+/* course-content */
 #course-content {
     display: inherit;
     flex-direction: inherit;
@@ -109,6 +111,7 @@ h2 {
     color: #33a8dB;
 }
 
+/* #transform-world */
 #transform-world {
     position: relative;
     width: 100vw;
@@ -135,6 +138,7 @@ h2 {
     filter: drop-shadow(3px 2px #33a8db);
 }
 
+/* #professional-challenges */
 #professional-challenges {
     display: inherit;
     flex-direction: inherit;
@@ -148,11 +152,12 @@ h2 {
     align-self: center;
 }
 
-#professional-challenges>p {
+#professional-challenges p {
     padding: 0 1.8rem;
     margin-top: 2.5rem;
 }
 
+/* footer */
 footer {
     width: 100vw;
     height: 10.6rem;
@@ -180,6 +185,8 @@ footer a {
 }
 
 @media screen and (min-width: 48em) {
+
+    /* banner */
     .banner-content {
         width: 32.1rem;
     }
@@ -192,6 +199,7 @@ footer a {
         padding: 1.1rem 5.6rem;
     }
 
+    /* course-content */
     #course-content {
         width: 49.5rem;
     }
@@ -204,6 +212,7 @@ footer a {
         width: 33.4rem;
     }
 
+    /* #transform-world */
     #transform-world {
         background-attachment: fixed;
     }
@@ -215,9 +224,10 @@ footer a {
         transform: translateY(-50%);
     }
 
+    /* #professional-challenges */
     #professional-challenges img {
-        width: initial;
-        height: initial;
+        width: 41.1rem;
+        height: 26.8rem;
     }
 
     #professional-challenges p {
